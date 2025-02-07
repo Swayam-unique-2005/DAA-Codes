@@ -1,0 +1,15 @@
+Aim
+To implement the Binary Search algorithm in C to find the position of an element in a sorted array.
+
+Algorithm
+Step 1: Start
+Step 2: Take a sorted array of n elements and the element to search (key).
+Step 3: Set low = 0 and high = n-1.
+Step 4: Repeat while low ≤ high:
+
+a. Calculate mid = (low + high) / 2.
+b. If arr[mid] == key, return mid.
+c. If key < arr[mid], set high = mid - 1.
+d. If key > arr[mid], set low = mid + 1.
+Step 5: If the element is not found, return -1.
+Step 6: Stop

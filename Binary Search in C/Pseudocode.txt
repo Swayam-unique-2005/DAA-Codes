@@ -1,0 +1,15 @@
+Procedure BinarySearch(array, n, key)
+    low ← 0
+    high ← n-1
+    while low ≤ high do
+        mid ← (low + high) / 2
+        if array[mid] == key then
+            return mid
+        else if key < array[mid] then
+            high ← mid - 1
+        else
+            low ← mid + 1
+        end if
+    end while
+    return -1
+End Procedure

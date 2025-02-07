@@ -1,0 +1,6 @@
+Input:
+Array: 10 20 30 40 50
+Key: 40
+
+Output:
+Element 40 found at index 3.
