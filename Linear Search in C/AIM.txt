@@ -1,0 +1,11 @@
+Aim
+To implement the Linear Search algorithm in C to find the position of an element in an array.
+
+Algorithm
+Step 1: Start
+Step 2: Take an array of n elements and the element to search (key).
+Step 3: Compare key with each element of the array one by one:
+
+a. If a match is found, return the index.
+b. If no match is found, return -1.
+Step 4: Stop

@@ -1,0 +1,9 @@
+Procedure LinearSearch(array, n, key)
+    for i ← 0 to n-1 do
+        if array[i] == key then
+            return i
+        end if
+    end for
+    return -1
+End Procedure
+
