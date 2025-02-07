@@ -1,0 +1,14 @@
+Aim
+To implement the Insertion Sort algorithm in C to sort an array of integers in ascending order.
+
+Algorithm
+Step 1: Start
+Step 2: Take an array of n elements as input.
+Step 3: Repeat for each element in the array starting from the second element:
+
+a. Compare the current element with its predecessors.
+b. Shift all elements that are greater than the current element to one position ahead.
+c. Insert the current element into its correct position.
+Step 4: Repeat until all elements are sorted.
+Step 5: Display the sorted array.
+Step 6: Stop

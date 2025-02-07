@@ -1,0 +1,11 @@
+Output
+Input:
+Original array:
+12 11 13 5 6
+
+Process:
+Sorting in ascending order using Insertion Sort.
+
+Output:
+Sorted array:
+5 6 11 12 13
