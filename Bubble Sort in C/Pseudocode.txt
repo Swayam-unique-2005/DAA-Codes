@@ -1,0 +1,10 @@
+Procedure BubbleSort(array, n)
+    for i ← 0 to n-2 do
+        for j ← 0 to n-2-i do
+            if array[j] > array[j+1] then
+                swap(array[j], array[j+1])
+            end if
+        end for
+    end for
+End Procedure
+

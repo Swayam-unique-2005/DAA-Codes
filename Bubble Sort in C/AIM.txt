@@ -1,0 +1,13 @@
+Aim
+To implement the Bubble Sort algorithm in C to sort an array of integers in ascending order.
+
+Algorithm
+Step 1: Start
+Step 2: Take an array of n elements as input.
+Step 3: Repeat for i = 0 to n-2:
+
+a. Compare adjacent elements in the array.
+b. If the current element is greater than the next element, swap them.
+Step 4: Continue until no more swaps are needed.
+Step 5: Display the sorted array.
+Step 6: Stop
